@@ -3,4 +3,8 @@ class Compras extends CI_Controller{
 	public function index(){
 		echo "controlador de compras";
 	}
+
+	public function funcion_nueva() {
+		echo "esta funcion es nueva";
+	}
 }
