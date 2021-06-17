@@ -14,5 +14,9 @@ class Compras extends CI_Controller{
     
     public function vista_compras2(){
         $this->load->view("compras/vista_compras");
+    } 
+    
+    public function borrar_datos(){
+        echo "borrado";
     }
 }
