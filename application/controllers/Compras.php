@@ -7,4 +7,8 @@ class Compras extends CI_Controller{
 	public function funcion_nueva() {
 		echo "esta funcion es nueva";
 	}
+        
+        public function vista_compras(){
+            $this->load->view("compras/vista_compras");
+        }
 }
